@@ -1,0 +1,103 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.borda-vertical > div {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+.container-border {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.col-sm {
+  padding: 10px;
+}
+.card-title a {
+  color: black;
+  text-decoration: none;
+}
+.navbar {
+  background-color: blue;
+}
+.phone-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #166ec7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.rounded-background {
+  background-color: #e7e1e1e9;
+  border-radius: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.float-right { 
+  float: right
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  gap:80px;
+}
+
+form {
+  margin-left: 5px;
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px #ccc;
+}
+input[type="submit"] {
+  margin-top: 30px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form {
+  max-width: 30em;
+  width: 80%;
+}
+label {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-left: 0%;
+  margin-right:0%;
+  font-weight:400;
+  padding-bottom: 16px;
+}
+
+.footer {
+margin-top: 30px;
+}
+
+
+@media (max-width: 992px) {
+  .ajuda-text span {
+    font-size: 18px;
+  }
+
+  
+}
